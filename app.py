@@ -20,7 +20,7 @@ def giris_kontrolu():
     # Doğrulama fonksiyonu
     def sifre_denendi():
         # Ticari sürümde bu şifreler bulutun "Gizli Kasa" (Secrets) bölümünden çekilecek
-        if st.session_state["kullanici_adi"] == "bayrak_yonetim" and st.session_state["sifre"] == "Tubitak2026!":
+        if st.session_state["kullanici_adi"] == "Tomorro_Vip" and st.session_state["sifre"] == "Tubitak2026!":
             st.session_state["giris_basarili"] = True
             del st.session_state["sifre"]  # Güvenlik için şifreyi hafızadan sil
         else:
